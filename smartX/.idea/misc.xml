@@ -11,6 +11,7 @@
         <option value="$PROJECT_DIR$/smartx-api/pom.xml" />
         <option value="$PROJECT_DIR$/smartx-eureka/pom.xml" />
         <option value="$PROJECT_DIR$/smartx-service/pom.xml" />
+        <option value="$PROJECT_DIR$/smartx-hystrix/pom.xml" />
       </list>
     </option>
   </component>

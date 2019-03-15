@@ -9,6 +9,7 @@
         <module name="smartX" />
         <module name="smartx-api" />
         <module name="smartx-eureka" />
+        <module name="smartx-hystrix" />
         <module name="smartx-service" />
       </profile>
     </annotationProcessing>
