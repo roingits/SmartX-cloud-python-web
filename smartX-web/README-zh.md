@@ -1,10 +1,56 @@
-# vue-admin-template
+# web项目介绍
+null
 
-> 这是一个 极简的 vue admin 管理后台 它只包含了 Element UI & axios & iconfont & permission control & lint，这些搭建后台必要的东西。
+## 技术栈
+- 1:
+- 2:
+- 3:
 
-[线上地址](http://panjiachen.github.io/vue-admin-template)
+## 环境需求
+node git
 
-[国内访问](https://panjiachen.gitee.io/vue-admin-template)
+## 目录结构
+```text
+|-smartX-web
+   |-build  //webpack基本配置
+   |-config //dev,pro 环境配置文件
+   |-mock   //加载mock数据文件 
+   |-src    //资源文件
+   |     |-api //对接后台接口
+   |     |-assets //资源文件
+   |         |-images  //图片资源
+   |         |-js      //外部js资源
+   |         |-svg     //外部svg资源
+   |     |-components //通用组建
+   |     |-icon //项目icon
+   |     |-router //路由控制 左边菜单控制
+   |     |-store //业务处理 store作用域
+   |     |-style //外部css资源
+   |     |-utils //工具js资源
+   |     |-views //页面资源
+   |          |-dashboard //首页页面
+   |          |-face //人脸识别相关页面
+   |          |-system //系统设置相关页面
+   |
+   |-static //静态文件(勿做操作)
+```
+
+
+## 快速入门
+- 1:
+- 2:
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## Extra
 
@@ -16,19 +62,6 @@
 
 ## 相关项目
 
-[vue-element-admin](https://github.com/PanJiaChen/vue-element-admin)
-
-[electron-vue-admin](https://github.com/PanJiaChen/electron-vue-admin)
-
-[vue-typescript-admin-template](https://github.com/Armour/vue-typescript-admin-template)
-
-写了一个系列的教程配套文章，如何从零构建后一个完整的后台项目:
-
-- [手摸手，带你用 vue 撸后台 系列一(基础篇)](https://juejin.im/post/59097cd7a22b9d0065fb61d2)
-- [手摸手，带你用 vue 撸后台 系列二(登录权限篇)](https://juejin.im/post/591aa14f570c35006961acac)
-- [手摸手，带你用 vue 撸后台 系列三 (实战篇)](https://juejin.im/post/593121aa0ce4630057f70d35)
-- [手摸手，带你用 vue 撸后台 系列四(vueAdmin 一个极简的后台基础模板,专门针对本项目的文章,算作是一篇文档)](https://juejin.im/post/595b4d776fb9a06bbe7dba56)
-- [手摸手，带你封装一个 vue component](https://segmentfault.com/a/1190000009090836)
 
 ## Build Setup
 
@@ -64,33 +97,3 @@ npm run build --report
 
 之后找到 [webpack.base.conf.js](https://github.com/PanJiaChen/vue-admin-template/blob/element-ui-cdn/build/webpack.base.conf.js) 加入 `externals` 让 webpack 不打包 vue 和 element
 
-```
-externals: {
-  vue: 'Vue',
-  'element-ui':'ELEMENT'
-}
-```
-
-之后还有一个小细节是如果你用了全局对象方式引入 vue，就不需要 手动 `Vue.use(Vuex）` ，它会自动挂载，具体见 [issue](https://github.com/vuejs/vuex/issues/731)
-
-最终你可以使用 `npm run build --report` 查看效果
-如图：
-![demo](https://panjiachen.github.io/images/element-cdn.png)
-
-**[具体代码](https://github.com/PanJiaChen/vue-admin-template/commit/746aff560932704ae821f82f10b8b2a9681d5177)**
-
-**[对应分支](https://github.com/PanJiaChen/vue-admin-template/tree/element-ui-cdn)**
-
-## Browsers support
-
-Modern browsers and Internet Explorer 10+.
-
-| [<img src="https://raw.githubusercontent.com/alrra/browser-logos/master/src/edge/edge_48x48.png" alt="IE / Edge" width="24px" height="24px" />](http://godban.github.io/browsers-support-badges/)</br>IE / Edge | [<img src="https://raw.githubusercontent.com/alrra/browser-logos/master/src/firefox/firefox_48x48.png" alt="Firefox" width="24px" height="24px" />](http://godban.github.io/browsers-support-badges/)</br>Firefox | [<img src="https://raw.githubusercontent.com/alrra/browser-logos/master/src/chrome/chrome_48x48.png" alt="Chrome" width="24px" height="24px" />](http://godban.github.io/browsers-support-badges/)</br>Chrome | [<img src="https://raw.githubusercontent.com/alrra/browser-logos/master/src/safari/safari_48x48.png" alt="Safari" width="24px" height="24px" />](http://godban.github.io/browsers-support-badges/)</br>Safari |
-| --------- | --------- | --------- | --------- |
-| IE10, IE11, Edge| last 2 versions| last 2 versions| last 2 versions
-
-## License
-
-[MIT](https://github.com/PanJiaChen/vue-admin-template/blob/master/LICENSE) license.
-
-Copyright (c) 2017-present PanJiaChen
