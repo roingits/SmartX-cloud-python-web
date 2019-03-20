@@ -104,7 +104,15 @@ pip install pymysql -i http://pypi.douban.com/simple/ --trusted-host pypi.douban
 echo "[smartX-logger-info]>>>>>>>>>>>>>>>> ———mysql库安装成功！"
 ping 127.0.0.1 -n 3 > nul
 
-echo "[smartX-logger-info]>>>>>>>>>>>>>>>> ———再次检测核心库，再次安装中"
+echo "[smartX-logger-info]>>>>>>>>>>>>>>>> ———再次检测核心库，再次完全安装中"
+python -m pip install --upgrade pip
+python -m pip install --upgrade pip
+python -m pip install --upgrade pip
+pip3 install --upgrade pip -vv
+pip3 install --upgrade pip -vv
+pip3 install --upgrade pip -vv
+pip install urllib3
+pip install conda
 pip install face_recognition
 ping 127.0.0.1 -n 3 > nul
 

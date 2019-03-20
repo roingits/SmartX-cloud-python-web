@@ -1,1 +1,1 @@
-CreateObject("SAPI.SpVoice").Speak "smart X 的python环境安装成功！请按任意键退出！"
+CreateObject("SAPI.SpVoice").Speak "smart X 的python环境安装成功！请按任意键退出！如果出现红色文字错误，请不要使用gitbash在运行本脚本！请使用windows管理员cmd运行"

@@ -1,1 +1,1 @@
-CreateObject("SAPI.SpVoice").Speak "请确保您已经安装python环境！"
+CreateObject("SAPI.SpVoice").Speak "请确保您已经安装牌神环境！"
