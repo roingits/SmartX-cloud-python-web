@@ -1,4 +1,4 @@
-# SmartX-cloud-python-web
+﻿# SmartX-cloud-python-web
 SmartX-cloud-python-web
 
 
@@ -13,7 +13,7 @@ SmartX-cloud-python-web
 	5.人脸对比
 	6.....待扩展
 # 2.项目技术栈
-
+![技术栈](resource\doc\jishuzhan.jpg)
 
 
 # 3.项目架构
