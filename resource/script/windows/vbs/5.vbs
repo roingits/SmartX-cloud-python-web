@@ -1,0 +1,1 @@
+CreateObject("SAPI.SpVoice").Speak "【警告】请勿在安装途中点击鼠标右键或者左键，可能会导致暂停下载！"

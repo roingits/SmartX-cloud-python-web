@@ -1,0 +1,1 @@
+CreateObject("SAPI.SpVoice").Speak "smart X 的python环境安装成功！请按任意键退出！"

@@ -1,0 +1,1 @@
+CreateObject("SAPI.SpVoice").Speak "安装程序正在启动！！"

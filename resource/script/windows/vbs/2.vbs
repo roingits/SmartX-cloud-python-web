@@ -1,0 +1,1 @@
+CreateObject("SAPI.SpVoice").Speak "本过程，全程在线安装！"

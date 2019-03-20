@@ -1,0 +1,1 @@
+CreateObject("SAPI.SpVoice").Speak "请确保您已经安装Git！！"

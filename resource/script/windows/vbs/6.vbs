@@ -1,0 +1,1 @@
+CreateObject("SAPI.SpVoice").Speak "安装程序还有5秒开始执行"
